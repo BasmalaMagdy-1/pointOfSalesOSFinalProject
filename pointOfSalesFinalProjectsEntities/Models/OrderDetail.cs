@@ -14,7 +14,7 @@ namespace pointOfSalesFinalProjectsEntities.Models
         public int productId { get; set; }
         public Product? product { get; set; }
         public int QTY { get; set; } = 1;
-        public decimal Price { get; set; } 
-        public decimal Discount { get; set; }
+        public double Price { get; set; } 
+        public double Discount { get; set; }
     }
 }
